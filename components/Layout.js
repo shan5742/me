@@ -1,17 +1,14 @@
 import { ThemeProvider } from "../context/themeContext";
 import Header from "../components/Header";
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
     <ThemeProvider>
-      <div className="w-full min-h-screen bg-primary">
+      <div className="flex flex-col w-full min-h-screen bg-primary">
         <Header />
-        <main>{children}</main>
-        <footer className="text-primary">
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://nextjs.org/">NextJS</a>
-        </footer>
+        <main className="flex-grow">{children}</main>
+        <Footer />
       </div>
     </ThemeProvider>
   );

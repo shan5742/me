@@ -12,10 +12,10 @@
 
 .light {
   --color-bg-primary: #ffffff;
-  --color-bg-secondary: #2b6cb0;
+  --color-bg-secondary: #bee3f8;
   --color-text-primary: #0e151c;
   --color-text-secondary: #4a5568;
-  --color-text-accent: #2b6cb0;
+  --color-text-accent: #2a4365;
 }
 
 @tailwind base;
@@ -26,3 +26,103 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* purgecss start ignore */
+/* Markdown Styles */
+/* Global */
+.markdown {
+  @apply leading-relaxed text-lg;
+}
+
+@screen sm {
+  .markdown {
+    @apply text-lg;
+  }
+}
+
+@screen lg {
+  .markdown {
+    @apply text-xl;
+  }
+}
+
+/* Headers */
+.markdown h1,
+.markdown h2 {
+  @apply text-4xl text-accent my-6 font-semibold;
+}
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  @apply text-xl my-3 font-semibold;
+}
+
+@screen sm {
+  .markdown h1,
+  .markdown h2 {
+    @apply text-4xl;
+  }
+  .markdown h3,
+  .markdown h4,
+  .markdown h5,
+  .markdown h6 {
+    @apply text-xl;
+  }
+}
+
+/* Links */
+.markdown a {
+  @apply text-accent;
+}
+.markdown a:hover {
+  @apply underline;
+}
+/* Paragraph */
+.markdown p {
+  @apply mb-4 text-primary;
+}
+/* Lists */
+.markdown ul,
+.markdown ol {
+  @apply mb-4 ml-8;
+  @apply text-primary;
+}
+.markdown li > p,
+.markdown li > ul,
+.markdown li > ol {
+  @apply mb-0;
+}
+.markdown ol {
+  @apply list-decimal;
+}
+.markdown ul {
+  @apply list-disc;
+}
+/* Blockquotes */
+.markdown blockquote {
+  @apply p-2 mx-6 bg-gray-100 mb-4 border-l-4 border-gray-400 italic;
+}
+.markdown blockquote > p {
+  @apply mb-0;
+}
+/* Tables */
+.markdown td,
+.markdown th {
+  @apply px-2 py-1 border border-gray-400;
+}
+.markdown tr:nth-child(odd) {
+  @apply bg-gray-100;
+}
+.markdown table {
+  @apply mb-6;
+}
+
+/* Wrap any inline highlights `that are really long`, but don't modify
+   the setting for codeblocks (inside ```), which are rendered in as:
+   <pre><code>...
+*/
+.markdown :not(pre) > code.language-text {
+  white-space: pre-line;
+}
+/* purgecss end ignore */

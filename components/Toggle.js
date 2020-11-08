@@ -7,7 +7,7 @@ export const Toggle = () => {
   return (
     <button
       onClick={() => (theme === "dark" ? setTheme("light") : setTheme("dark"))}
-      className="text-5xl"
+      className="text-4xl"
     >
       {theme === "dark" ? "☀️" : "🌙"}
     </button>
