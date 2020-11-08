@@ -1,11 +1,7 @@
 ---
 title: Distractions
 date: 2020-09-16
-published: true
 tags: ["Focus", "Distractions", "social media"]
-series: false
-cover_image: ./images/distractions.jpeg
-canonical_url: false
 description: "I have been on a journey to better productivity and mindset for a long time. A few years back I decided to delete my Facebook account and I have over time noticed myself slipping in terms of social media and other distractions, so I have now made some changes that I hope will lead to better focus and productivity going forward."
 ---
 

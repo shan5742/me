@@ -1,11 +1,7 @@
 ---
 title: Hello World
 date: 2018-08-13
-published: true
 tags: ['Writing', 'Hello World']
-series: false
-cover_image: ./images/alexandr-podvalny-220262-unsplash.jpg
-canonical_url: false
 description: "Writing is something that I have always enjoyed, I have done it semi professionally in the past writing on various topics including online gambling, poker and football.
 
 Doing it on a somewhat professional basis sucked a lot of the fun out of it and (most likely due to my own lack of talent) inevitably I lost some of my passion for it and gave up pursuing it as a career and the nomad lifestyle that came with it."

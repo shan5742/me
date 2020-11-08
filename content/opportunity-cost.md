@@ -1,11 +1,7 @@
 ---
 title: Opportunity Cost
 date: 2020-03-02
-published: true
 tags: ["Opportunity Cost", "Trade off"]
-series: false
-cover_image: ./images/opportunity-cost.jpg
-canonical_url: false
 description: "When I got into development I always knew that I would constantly need to be learning, it is one of the things that attracted me to the industry in the first place. However from time to time it gets a little too much and you may find yourself conflicted, especially in the early days. Learning cool, new and interesting things is great, but at the same time, in the early stages of your career there is a rather large opportunity cost to doing so. Let me explain."
 ---
 

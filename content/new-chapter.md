@@ -1,11 +1,7 @@
 ---
 title: Next Chapter
 date: 2020-09-20
-published: true
 tags: ["Next Chapter", "Vue"]
-series: false
-cover_image: ./images/newjob.jpg
-canonical_url: false
 description: "Mixed emotions at the moment. I recently accepted a job offer and am about to start my last full week at my current workplace. A little over 18 months ago I started my first real dev job. I will be sad to go, but I felt the time is right and I am ready to start the next chapter in my career."
 ---
 

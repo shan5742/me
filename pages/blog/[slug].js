@@ -9,6 +9,7 @@ function PostTemplate({ content, data }) {
   return (
     <div className="markdown p-8 flex flex-col max-w-5xl mx-auto">
       <h1>{frontmatter.title}</h1>
+      <ReactMarkdown source={content} />
       <div className="flex">
         {frontmatter.tags.map((t, i) => (
           <p key={i} className="bg-secondary text-primary px-4 py-2 m-2">
@@ -16,7 +17,6 @@ function PostTemplate({ content, data }) {
           </p>
         ))}
       </div>
-      <ReactMarkdown source={content} />
     </div>
   );
 }

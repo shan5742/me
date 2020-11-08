@@ -1,11 +1,7 @@
 ---
 title: "Freedom"
 date: 2020-03-03
-published: true
 tags: ["Autonomy", "Remote", "WFH"]
-series: false
-cover_image: ./images/freedom.jpg
-canonical_url: false
 description: "Over the past few months I have started to feel really lucky in terms of who I work for. The life of a developer can be extremely different depending on the company. I know this sounds obvious, but I think when you are on the right side of this it can often be taken for granted."
 ---
 

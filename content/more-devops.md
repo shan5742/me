@@ -1,11 +1,7 @@
 ---
 title: All things AWS
 date: 2020-08-15
-published: true
 tags: ["DevOps", "AWS"]
-series: false
-cover_image: ./images/devops.png
-canonical_url: false
 description: "Since what feels like forever I have been interested in learning more of the operations side of the industry. I have dipped in and out a decent amount of times over he last year or so with help from my good friend and mentor Corey."
 ---
 

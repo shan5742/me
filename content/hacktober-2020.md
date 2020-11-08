@@ -1,11 +1,7 @@
 ---
 title: Hacktoberfest
 date: 2020-09-21
-published: true
 tags: ["Hacktoberfest", "OSS", "Digital Ocean"]
-series: false
-cover_image: ./images/hacktober.png
-canonical_url: false
 description: "It's almost that time of year again! October is not far away and once again Digital Ocean will be running Hacktoberfest. I completed it in 2018, missed out last year, so definitely wanna get involved again this year."
 ---
 

@@ -5,27 +5,39 @@ import Link from "next/link";
 
 export default function Blog({ posts }) {
   return (
-    <div className="max-w-5xl p4 mx-auto">
+    <div className="max-w-3xl p4 mx-auto">
       <h1 className="text-accent text-3xl md:text4xl lg:text-5xl xl:text-5xl font-bold mb-4">
-        Posts
+        Blog Posts
       </h1>
-      {posts.map(({ frontmatter: { title, description, date }, slug }) => (
-        <article key={title}>
-          <header>
-            <h3 className="mb-2">
-              <Link href={"/blog/[slug]"} as={`/blog/${slug}`}>
-                <a className="text-3xl font-semibold text-accent no-underline">
-                  {title}
-                </a>
-              </Link>
-            </h3>
-            <span className="mb-4 text-sm text-white">{date}</span>
-          </header>
-          <section>
-            <p className="mb-8 text-primary">{description}</p>
-          </section>
-        </article>
-      ))}
+      {posts.map(
+        ({ frontmatter: { title, description, date, tags }, slug }) => (
+          <article
+            className="bg-secondary py-12 px-8 rounded-md my-4"
+            key={title}
+          >
+            <header>
+              <h3 className="mb-2">
+                <Link href={"/blog/[slug]"} as={`/blog/${slug}`}>
+                  <a className="text-3xl font-semibold text-accent no-underline">
+                    {title}
+                  </a>
+                </Link>
+              </h3>
+              <span className="mb-8 text-sm text-secondary">{date}</span>
+            </header>
+            <section>
+              <p className="my-8 text-primary">{description}</p>
+            </section>
+            <div className="flex">
+              {tags.map((t, i) => (
+                <p key={i} className="bg-primary text-accent px-4 py-2 m-2">
+                  {t}
+                </p>
+              ))}
+            </div>
+          </article>
+        )
+      )}
     </div>
   );
 }

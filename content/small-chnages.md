@@ -4,7 +4,7 @@ date: 2020-08-12
 published: true
 tags: ["Atomic", "Habits", "Results"]
 series: false
-cover_image: ./images/atomic.jpg
+image: "/atomic.jpg"
 canonical_url: false
 description: "2020 has been a particular rough year for many of us, outside of the global pandemic I have had a lot of personal things to deal with. I was reflecting the other day about everything and expecting to feel pretty rough afterwards. However in reality despite the struggles of this year a lot of good things have happened and I soon realised these have came from really small changes that have been applied consistently over time."
 ---

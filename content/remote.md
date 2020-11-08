@@ -1,11 +1,7 @@
 ---
 title: Remote Working Guide
 date: 2020-03-17
-published: true
 tags: ["Remote", "WFH"]
-series: false
-cover_image: ./images/remote.jpeg
-canonical_url: false
 description: "It seems my last post was way more timely that I thought. As I mentioned I have been seeing a switch toward remote working happening slowly but surely. However with **COVID-19** becoming so prevalent all over the world, a lot of governments are advising citizens to work from home where possible. Now, I am no full time remote worker, but I have worked a decent amount from home, so I figured I could put together a nice little guide for those who are new to **WFH**"
 ---
 

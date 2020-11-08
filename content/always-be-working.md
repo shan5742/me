@@ -1,11 +1,7 @@
 ---
 title: Always be working!
 date: 2020-09-24
-published: true
 tags: ["Hustling", "Consistent", "Work Ethic"]
-series: false
-cover_image: ./images/hardwork.png
-canonical_url: false
 description: "Just a quick post to help motivate some of you out there and help me reflect on what is happening lately. It has been a pretty hectic few weeks to be honest. Lots of progress made in lots of areas, which is great!"
 ---
 

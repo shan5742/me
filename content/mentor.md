@@ -1,11 +1,7 @@
 ---
 title: Mentor
 date: 2020-08-18
-published: true
 tags: ["Mentorship", "Learning"]
-series: false
-cover_image: ./images/mentor.jpg
-canonical_url: false
 description: "Any reader of this blog will have noticed me banging on about mentors a lot. I have been lucky enough to have a number of great mentors over the last few years and I attribute a lot of my career success to them, I have learnt and continue to learn so much from them. I have always wanted to give back in a similar way, but never really had the confidence to do so - until now."
 ---
 
