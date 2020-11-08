@@ -6,13 +6,13 @@ import Link from "next/link";
 export default function Blog({ posts }) {
   return (
     <div className="max-w-3xl p4 mx-auto">
-      <h1 className="text-accent text-3xl md:text4xl lg:text-5xl xl:text-5xl font-bold mb-4">
+      <h1 className="text-accent text-3xl md:text4xl lg:text-5xl xl:text-5xl font-bold my-4">
         Blog Posts
       </h1>
       {posts.map(
         ({ frontmatter: { title, description, date, tags }, slug }) => (
           <article
-            className="bg-secondary py-12 px-8 rounded-md my-4"
+            className="bg-secondary py-12 px-8 rounded-md my-8"
             key={title}
           >
             <header>

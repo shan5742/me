@@ -7,7 +7,7 @@ function PostTemplate({ content, data }) {
   const frontmatter = data;
 
   return (
-    <div className="markdown p-8 flex flex-col max-w-5xl mx-auto">
+    <div className="markdown max-w-3xl p-8 flex flex-col mx-auto">
       <h1>{frontmatter.title}</h1>
       <ReactMarkdown source={content} />
       <div className="flex">
