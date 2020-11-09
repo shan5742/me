@@ -35,7 +35,9 @@ export default function Blog({ posts }) {
                   </a>
                 </Link>
               </h3>
-              <span className="mb-8 text-sm text-secondary">{date}</span>
+              <span className="mb-8 text-sm text-secondary">
+                {moment(date).format("LL")}
+              </span>
             </header>
             <section>
               <p className="my-8 text-primary">{description}</p>
