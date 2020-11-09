@@ -4,12 +4,24 @@ import moment from "moment";
 import Link from "next/link";
 
 export default function Blog({ posts }) {
+  const sortedBlogPosts = posts.sort((a, b) => {
+    return a.frontmatter.date > b.frontmatter.date
+      ? -1
+      : a.frontmatter.date > b.frontmatter.date
+      ? 1
+      : 0;
+  });
   return (
     <div className="max-w-3xl p4 mx-auto">
       <h1 className="text-accent text-3xl md:text4xl lg:text-5xl xl:text-5xl font-bold my-4">
         Blog Posts
       </h1>
-      {posts.map(
+      <Link href="/">
+        <a className="text-accent text-md font-bold hover:underline">
+          back to home page
+        </a>
+      </Link>
+      {sortedBlogPosts.map(
         ({ frontmatter: { title, description, date, tags }, slug }) => (
           <article
             className="bg-secondary py-12 px-8 rounded-md my-8"
@@ -31,13 +43,18 @@ export default function Blog({ posts }) {
             <div className="flex">
               {tags.map((t, i) => (
                 <p key={i} className="bg-primary text-accent px-4 py-2 m-2">
-                  {t}
+                  #{t}
                 </p>
               ))}
             </div>
           </article>
         )
       )}
+      <Link href="/">
+        <a className="text-accent text-md font-bold hover:underline">
+          back to home page
+        </a>
+      </Link>
     </div>
   );
 }
@@ -53,7 +70,7 @@ export async function getStaticProps() {
     const { data } = matter(markdownWithMetadata);
 
     // Convert post date to format: Month day, Year
-    const formattedDate = moment(data.date).format("MMM Do YYYY");
+    const formattedDate = moment(data.date).toISOString();
 
     const frontmatter = {
       ...data,

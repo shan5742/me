@@ -1,6 +1,7 @@
 import React from "react";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
+import Link from "next/link";
 
 function PostTemplate({ content, data }) {
   // This holds the data between `---` from the .md file
@@ -17,6 +18,11 @@ function PostTemplate({ content, data }) {
           </p>
         ))}
       </div>
+      <Link href="/blog">
+        <a className="text-accent text-md font-bold hover:underline">
+          back to blog
+        </a>
+      </Link>
     </div>
   );
 }
