@@ -8,7 +8,7 @@ export default function Home() {
         <title>Asam Shan | home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="p-12 xl:p-48 lg:p-48 md:p-24 sm:p-24">
+      <div className="max-w-6xl mx-auto mt-24 px-8">
         <h1 className="text-primary text-4xl md:text5xl lg:text-6xl xl:text-6xl font-bold">
           Hi, I'm Asam
         </h1>

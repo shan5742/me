@@ -12,7 +12,7 @@ export default function Blog({ posts }) {
       : 0;
   });
   return (
-    <div className="max-w-3xl p4 mx-auto">
+    <div className="max-w-3xl px-8 mt-12 mx-auto">
       <h1 className="text-accent text-3xl md:text4xl lg:text-5xl xl:text-5xl font-bold my-4">
         Blog Posts
       </h1>
@@ -42,9 +42,9 @@ export default function Blog({ posts }) {
             <section>
               <p className="my-8 text-primary">{description}</p>
             </section>
-            <div className="flex">
+            <div className="flex flex-wrap">
               {tags.map((t, i) => (
-                <p key={i} className="bg-primary text-accent px-4 py-2 m-2">
+                <p key={i} className="bg-primary text-accent px-4 py-2 mr-2">
                   #{t}
                 </p>
               ))}

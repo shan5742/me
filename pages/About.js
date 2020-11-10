@@ -8,7 +8,7 @@ export default function About() {
         <title>Asam Shan | about</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="px-24 py-12">
+      <div className="px-8 max-w-6xl mx-auto mt-12">
         <h1 className="text-accent text-3xl md:text4xl lg:text-5xl xl:text-5xl font-bold mb-4">
           About Me
         </h1>
