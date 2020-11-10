@@ -20,7 +20,7 @@ export default function Projects() {
           {data.map((project) => (
             <div
               key={project.id}
-              className="flex flex-col py-4 border-b-2 border-teal-400 mb-16"
+              className="flex flex-col py-4 border-b-2 border-blue-400 mb-16"
             >
               <h1 className="text-accent text-3xl font-bold mb-4">
                 {project.title}
