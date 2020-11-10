@@ -18,26 +18,26 @@ export default function Home() {
         <p className="text-primary text-xl md:text-xl lg:text-2xl xl:text-3xl my-4">
           🤓 You can read more about me{" "}
           <Link href="/about">
-            <a className="text-accent font-bold">here.</a>
+            <a className="text-accent underline hover:font-bold">here.</a>
           </Link>
         </p>
         <p className="text-primary text-xl md:text-xl lg:text-2xl xl:text-3xl my-4">
           ✍️ I keep a (somewhat) regular blog{" "}
           <Link href="/blog">
-            <a className="text-accent font-bold">here.</a>
+            <a className="text-accent underline hover:font-bold">here.</a>
           </Link>
         </p>
         <p className="text-primary text-xl md:text-xl lg:text-2xl xl:text-3xl my-4">
           📧 If you want to chat, work together or anything else, you can
           contact me{" "}
           <Link href="mailto:asamshan456@gmail.com">
-            <a className="text-accent font-bold">here.</a>
+            <a className="text-accent underline hover:font-bold">here.</a>
           </Link>
         </p>
         <p className="text-primary text-xl md:text-xl lg:text-2xl xl:text-3xl my-4">
           👨‍💻 Check out what I have been working on{" "}
           <Link href="/projects">
-            <a className="text-accent font-bold">here.</a>
+            <a className="text-accent underline hover:font-bold">here.</a>
           </Link>
         </p>
       </div>
