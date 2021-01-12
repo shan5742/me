@@ -125,4 +125,8 @@ body {
 .markdown :not(pre) > code.language-text {
   white-space: pre-line;
 }
+
+.logoLink {
+  cursor: pointer;
+}
 /* purgecss end ignore */

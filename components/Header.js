@@ -6,7 +6,7 @@ export default function Header() {
     <header className="flex justify-between bg-secondary px-10 py-5">
       <Link href="/">
         <img
-          className="h-12 md:h-24 lg:h-24 xl:h-24 rounded-full"
+          className="h-12 md:h-24 lg:h-24 xl:h-24 rounded-full logoLink"
           src="/headshot.jpg"
           alt="logo"
         />
