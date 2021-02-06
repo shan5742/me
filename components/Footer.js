@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-center pt-8 pb-16">
+    <footer className="flex justify-center py-8">
       <p className="font-mono text-primary text-xl">
         © {new Date().getFullYear()},{` `}made with ❤️ by{" "}
         <Link href="/">

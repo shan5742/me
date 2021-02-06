@@ -3,19 +3,19 @@
 }
 
 .dark {
-  --color-bg-primary: #2a4365;
-  --color-bg-secondary: #2c5282;
-  --color-text-primary: #bee3f8;
-  --color-text-secondary: #ebf8ff;
-  --color-text-accent: #ff8ae2;
+  --color-bg-primary: #111827;
+  --color-bg-secondary: #374151;
+  --color-text-primary: #d1d5db;
+  --color-text-secondary: #f9fafb;
+  --color-text-accent: #10b981;
 }
 
 .light {
-  --color-bg-primary: #ebf8ff;
-  --color-bg-secondary: #bee3f8;
-  --color-text-primary: #2a4365;
-  --color-text-secondary: #2c5282;
-  --color-text-accent: #4299e1;
+  --color-bg-primary: #f9fafb;
+  --color-bg-secondary: #d1d5db;
+  --color-text-primary: #111827;
+  --color-text-secondary: #374151;
+  --color-text-accent: #10b981;
 }
 
 @tailwind base;
@@ -31,7 +31,7 @@ body {
 /* Markdown Styles */
 /* Global */
 .markdown {
-  @apply leading-relaxed text-lg;
+  @apply leading-relaxed text-sm;
 }
 
 @screen sm {

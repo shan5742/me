@@ -3,10 +3,10 @@ import { Toggle } from "./Toggle";
 
 export default function Header() {
   return (
-    <header className="flex justify-between bg-secondary px-10 py-5">
+    <header className="flex justify-between  px-5 py-2">
       <Link href="/">
         <img
-          className="h-12 md:h-24 lg:h-24 xl:h-24 rounded-full logoLink"
+          className="h-8 md:h-16 lg:h-16 xl:h-16 rounded-full logoLink"
           src="/headshot.jpg"
           alt="logo"
         />

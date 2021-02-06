@@ -44,7 +44,7 @@ export default function Blog({ posts }) {
             </section>
             <div className="flex flex-wrap">
               {tags.map((t, i) => (
-                <p key={i} className="bg-primary text-accent px-4 py-2 mr-2">
+                <p key={i} className="bg-primary text-accent px-4 py-2 m-2">
                   #{t}
                 </p>
               ))}
