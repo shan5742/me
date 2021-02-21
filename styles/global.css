@@ -2,6 +2,10 @@
   @apply .light;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .dark {
   --color-bg-primary: #111827;
   --color-bg-secondary: #374151;
