@@ -48,6 +48,11 @@ export default function About() {
           also getting hands on with Docker, CI/CD with Gitlab and Prisma, which
           I am excited about.
         </p>
+        <p className="text-primary text-xl mb-4">
+          Outside of work I am always day dreaming about becoming an indie maker
+          and shipping some awesome products. This is still pretty much pipe
+          dream status, but watch this space I guess!
+        </p>
         <h1 className="text-accent text-3xl md:text4xl lg:text-5xl xl:text-5xl font-bold mb-4">
           Mentoring
         </h1>
