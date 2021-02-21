@@ -32,6 +32,23 @@ export default function About() {
           engineer.
         </p>
         <h1 className="text-accent text-3xl md:text4xl lg:text-5xl xl:text-5xl font-bold mb-4">
+          Now
+        </h1>
+        <p className="text-primary text-xl mb-4">
+          I am currently a software engineer at{" "}
+          <Link href="https://www.libraryofthings.co.uk">
+            <a className="text-accent font-bold hover:underline">
+              Library of Things
+            </a>
+          </Link>{" "}
+          which is a social enterprise promoting borrowing over buying. I
+          started in January 2021 and so far I am absolutely loving it. The team
+          are great and super supportive. Our stack is React, Typescript, Apollo
+          and Graphql, which is exactly what I want to be working with. I am
+          also getting hands on with Docker, CI/CD with Gitlab and Prisma, which
+          I am excited about.
+        </p>
+        <h1 className="text-accent text-3xl md:text4xl lg:text-5xl xl:text-5xl font-bold mb-4">
           Mentoring
         </h1>
         <p className="text-primary text-xl mb-4">
