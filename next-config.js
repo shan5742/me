@@ -1,5 +1,5 @@
 module.exports = {
   images: {
-    domains: ["supportprivacy.xyz/"],
+    domains: ["asamshan.dev"],
   },
 };
