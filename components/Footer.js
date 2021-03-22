@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -15,7 +14,7 @@ export default function Footer() {
           Want to support what I do?
         </p>
         <a href="https://www.buymeacoffee.com/asamshan">
-          <Image src="/coffee.png" alt="me" width="120" height="30" />
+          <img className="h-8  logoLink" src="/coffee.png" alt="logo" />
         </a>
       </div>
     </footer>
